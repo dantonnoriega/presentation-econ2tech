@@ -132,8 +132,7 @@ class: inverse, center, middle
 - Open Source scripting languages
   - `python`, `R`, `julia`
 - Version Control
-  - `git`
-  - Github or gitlab
+  - `git`, Github or gitlab
 - Regular Expressions
 - Unit Testing
   
@@ -141,13 +140,14 @@ class: inverse, center, middle
 
 # Data Engineering
 
-- `SQL`
-  - Also fast, universal, and timeless
-- Data Structures
-  - JSON, XML, plain text
-- `bash`, again
-  - Priceless for cleaning data
-- Spark
+- Simple Data Structures and formats
+  - JSON, XML, plain text (csv)
+- Curated Databases
+  - SQLite, Postgres, MySQL, Apache Drill
+  - **Never Excel**
+- Languages
+  - `SQL`, `R` packages like [`dbplyr`](https://github.com/tidyverse/dbplyr)
+  - `bash`, again (cleaning data, building pipelines)
 
 ---
 
@@ -155,6 +155,7 @@ class: inverse, center, middle
 
 - GNU Make
 - `drake` / `targets`
+- RMarkdown & Jupyter Notebooks
 - **Docker**
 
 # Program Management 
