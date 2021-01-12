@@ -111,7 +111,7 @@ class: inverse, center, middle
 
 # Causal Inference
 
-- Causality & Prediction
+- Causality
   - Directed Acyclic Graph (DAGs)
   - Diff-in-Diff
   - Better predictions
@@ -184,6 +184,8 @@ class: inverse, center, middle
 - [R for Data Science](https://r4ds.had.co.nz)
 - [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
   - Honestly, I learned from SQL language manuals
+
+---
 
 # Docker
 
