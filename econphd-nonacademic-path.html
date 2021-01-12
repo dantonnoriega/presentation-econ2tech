@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Graduate School to Tech</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Danton Noriega-Goodwin" />
+    <meta name="date" content="2021-01-11" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Graduate School to Tech
+## What I do, How I Got Here, and Some Advice
+### Danton Noriega-Goodwin
+### 2021-01-11
+
+---
+
+
+
+
+
+
+
+
+class: center, middle
+
+![](danton-profile.png)
+
+## [Danton Noriega-Goodwin](https://twitter.com/dantonnoriega)
+###  Data Science Manager
+
+---
+
+# What I do
+
+- Co-manage a data science team
+- Investigate and forecast global demand for  infrastructure
+--
+
+- Build tools and packages
+- Plan and deploy data pipelines
+--
+
+- Google stuff I don't know, constantly
+
+---
+
+# How I Got Here
+
+- Luck, mostly (twitter `#rtats`)
+--
+
+- Being an amazing research assistant
+- But also a terrible academic
+--
+
+- Enormous interest in programming (`R`, `bash`)
+
+---
+class: inverse, center, middle
+
+# Some Valuable Advice
+
+(For getting a job but also for becoming a capable and productive researcher)
+
+---
+
+# Expert
+
+- Statistics
+- Causal Inference
+
+--
+
+# "Good Enough"
+
+- Software Engineering
+- Data Engineering
+- Reproducibility
+- Program Management
+
+---
+
+# Statistics
+
+- Theory matters
+  - Start simple
+  - Be deliberate
+--
+
+- Simple linear models are
+  - Powerful
+  - Interpretable
+  - Flexible
+  - Reliable
+
+---
+
+# Causal Inference
+
+- Causality &amp; Prediction
+  - Directed Acyclic Graph (DAGs)
+  - Diff-in-Diff
+  - Better predictions
+--
+
+- What about Machine Learning?
+  - Out-of-the-box Black-boxes
+  - Difficult to interpret
+  - Often overkill
+
+---
+
+# Software Engineering
+
+- Shell (`bash`) programming
+  - fast, universal, and timeless
+  - `awk`, `sed`, `less`, `tr`, `grep`, `cut`, `sort`, `cat`
+- Open Source scripting languages
+  - `python`, `R`, `julia`
+- Version Control
+  - `git`
+  - Github or gitlab
+- Regular Expressions
+- Unit Testing
+  
+---
+
+# Data Engineering
+
+- `SQL`
+  - Also fast, universal, and timeless
+- Data Structures
+  - JSON, XML, plain text
+- `bash`, again
+  - Priceless for cleaning data
+- Spark
+
+---
+
+# Reproducibility
+
+- GNU Make
+- `drake` / `targets`
+- **Docker**
+
+# Program Management 
+
+- Github repos, issues, &amp; projects
+- Planning, scoping, milestoning
+
+---
+class: inverse, center, middle
+
+# Resources
+
+---
+
+# Software Engineering
+
+- [Good Enough Practices in Scientific Computing](https://arxiv.org/abs/1609.00037)
+- [Research Software Engineering with Python](https://merely-useful.github.io/py-rse/index.html)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu)
+
+---
+
+# Data Science
+
+- [EC 607 - Environmental Economics and Data Science](https://github.com/uo-ec607/lectures)
+- [Data Science at the Command Line](https://www.datascienceatthecommandline.com/2e/)
+- [R for Data Science](https://r4ds.had.co.nz)
+- [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
+  - Honestly, I learned from SQL language manuals
+
+# Docker
+
+- [R Docker Tutorial](https://ropenscilabs.github.io/r-docker-tutorial/)
+- [Docker for Beginners](https://docker-curriculum.com)
+
+---
+background-image: url('IMG_0028.jpg')
+background-position: 50% 10%
+class: center, bottom
+
+# [Statistical Rethinking](http://xcelab.net/rm/statistical-rethinking/)
+## Richard McElreath [(@rlmcelreath)](https://twitter.com/rlmcelreath)
+
+---
+class: inverse, center, middle
+
+# Questions?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

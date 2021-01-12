@@ -1,0 +1,204 @@
+---
+title: "Graduate School to Tech"
+subtitle: "What I do, How I Got Here, and Some Advice"
+author: 
+  - "Danton Noriega-Goodwin"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+extra_css <- list(
+  ".small" = list("font-size" = "90%"),
+  ".large" = list("font-size" = "200%"),
+  ".full-width" = list(
+    display = "flex",
+    width   = "100%",
+    flex    = "1 1 auto"
+  )
+)
+style_mono_accent(base_color = "#43418A", extra_css = extra_css,
+                  text_font_size = '36px')
+```
+
+class: center, middle
+
+![](danton-profile.png)
+
+## [Danton Noriega-Goodwin](https://twitter.com/dantonnoriega)
+###  Data Science Manager
+
+---
+
+# What I do
+
+- Co-manage a data science team
+- Investigate and forecast global demand for  infrastructure
+--
+
+- Build tools and packages
+- Plan and deploy data pipelines
+--
+
+- Google stuff I don't know, constantly
+
+---
+
+# How I Got Here
+
+- Luck, mostly (twitter `#rtats`)
+--
+
+- Being an amazing research assistant
+- But also a terrible academic
+--
+
+- Enormous interest in programming (`R`, `bash`)
+
+---
+class: inverse, center, middle
+
+# Some Valuable Advice
+
+(For getting a job but also for becoming a capable and productive researcher)
+
+---
+
+# Expert
+
+- Statistics
+- Causal Inference
+
+--
+
+# "Good Enough"
+
+- Software Engineering
+- Data Engineering
+- Reproducibility
+- Program Management
+
+---
+
+# Statistics
+
+- Theory matters
+  - Start simple
+  - Be deliberate
+--
+
+- Simple linear models are
+  - Powerful
+  - Interpretable
+  - Flexible
+  - Reliable
+
+---
+
+# Causal Inference
+
+- Causality & Prediction
+  - Directed Acyclic Graph (DAGs)
+  - Diff-in-Diff
+  - Better predictions
+--
+
+- What about Machine Learning?
+  - Out-of-the-box Black-boxes
+  - Difficult to interpret
+  - Often overkill
+
+---
+
+# Software Engineering
+
+- Shell (`bash`) programming
+  - fast, universal, and timeless
+  - `awk`, `sed`, `less`, `tr`, `grep`, `cut`, `sort`, `cat`
+- Open Source scripting languages
+  - `python`, `R`, `julia`
+- Version Control
+  - `git`
+  - Github or gitlab
+- Regular Expressions
+- Unit Testing
+  
+---
+
+# Data Engineering
+
+- `SQL`
+  - Also fast, universal, and timeless
+- Data Structures
+  - JSON, XML, plain text
+- `bash`, again
+  - Priceless for cleaning data
+- Spark
+
+---
+
+# Reproducibility
+
+- GNU Make
+- `drake` / `targets`
+- **Docker**
+
+# Program Management 
+
+- Github repos, issues, & projects
+- Planning, scoping, milestoning
+
+---
+class: inverse, center, middle
+
+# Resources
+
+---
+
+# Software Engineering
+
+- [Good Enough Practices in Scientific Computing](https://arxiv.org/abs/1609.00037)
+- [Research Software Engineering with Python](https://merely-useful.github.io/py-rse/index.html)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu)
+
+---
+
+# Data Science
+
+- [EC 607 - Environmental Economics and Data Science](https://github.com/uo-ec607/lectures)
+- [Data Science at the Command Line](https://www.datascienceatthecommandline.com/2e/)
+- [R for Data Science](https://r4ds.had.co.nz)
+- [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
+  - Honestly, I learned from SQL language manuals
+
+# Docker
+
+- [R Docker Tutorial](https://ropenscilabs.github.io/r-docker-tutorial/)
+- [Docker for Beginners](https://docker-curriculum.com)
+
+---
+background-image: url('IMG_0028.jpg')
+background-position: 50% 10%
+class: center, bottom
+
+# [Statistical Rethinking](http://xcelab.net/rm/statistical-rethinking/)
+## Richard McElreath [(@rlmcelreath)](https://twitter.com/rlmcelreath)
+
+---
+class: inverse, center, middle
+
+# Questions?
