@@ -40,14 +40,14 @@ class: center, middle
 ![](danton-profile.png)
 
 ## [Danton Noriega-Goodwin](https://twitter.com/dantonnoriega)
-###  Data Science Manager
+### Data Science Manager
 
 ---
 
 # What I do
 
 - Co-manage a data science team
-- Investigate and forecast global demand for  infrastructure
+- Investigate and forecast global infrastructure demand
 --
 
 - Build tools and packages
@@ -162,6 +162,16 @@ class: inverse, center, middle
 
 - Github repos, issues, & projects
 - Planning, scoping, milestoning
+
+---
+
+# Other Advice
+
+- Work as an Research Assistant
+  - Real data and project challenges 
+- Try to get an internship
+  - Don't just aim for a top tech firm
+  - Mid-level firms and start-ups also valuable
 
 ---
 class: inverse, center, middle
