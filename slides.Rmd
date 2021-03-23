@@ -3,7 +3,7 @@ title: "Graduate School to Tech"
 subtitle: "What I do, How I Got Here, and Some Advice"
 author: 
   - "Danton Noriega-Goodwin"
-date: '`r Sys.Date()`'
+date: '2021-01-31'
 output:
   xaringan::moon_reader:
     lib_dir: libs
