@@ -1,9 +1,9 @@
 ---
 title: "Graduate School to Tech"
-subtitle: "What I do, How I Got Here, and Some Advice"
+subtitle: "What I do, how I got here, and some advice"
 author: 
   - "Danton Noriega-Goodwin"
-date: '2021-01-31'
+date: '2022-01-27'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -46,15 +46,38 @@ class: center, middle
 
 # What I do
 
-- Co-manage a data science team
-- Investigate and forecast global infrastructure demand
+- Manage an data science team
 --
 
-- Build tools and packages
+  - Mentor and develop new data scientists
+  - Lots and lots of writing / communication
+--
+
+  - Constant context switching and meetings
+
+---
+
+# What my team does
+
+- We investigate and forecast internal and external infrastructure demand
+--
+
+- Build transparent, accessible, performant data products
+  - Simple, explainable linear models 
+  - Automated and customized report
+  - Shiny dashboards #dataviz
+  - APIs
 - Plan and deploy data pipelines
 --
 
 - Google stuff I don't know, constantly
+
+# Fun stats
+
+- Hired 9 data scientists
+  - 5 PhDs, 4 MAs
+  - Enough to now have 2 teams
+- Learned loads from smart colleagues
 
 ---
 
@@ -77,11 +100,17 @@ class: inverse, center, middle
 (For getting a job but also for becoming a capable and productive researcher)
 
 ---
+background-image: url('twitter-drob-project.png')
+background-size: contain
+class: center, bottom
+
+---
 
 # Expert
 
 - Statistics
 - Causal Inference
+- Communication & Documentation
 
 --
 
@@ -111,16 +140,17 @@ class: inverse, center, middle
 
 # Causal Inference
 
-- Causality
-  - Directed Acyclic Graph (DAGs)
-  - Diff-in-Diff
-  - Better predictions
+- Causality from different perspectives
+  - doCalculus, DAGs (stats-y)
+  - Diff-in-diff, quasi-experiments (econ-y)
+
 --
 
-- What about Machine Learning?
-  - Out-of-the-box Black-boxes
-  - Difficult to interpret
-  - Often overkill
+# What about Machine Learning?
+ 
+- Out-of-the-box Black-boxes
+- Difficult to interpret
+- Often overkill
 
 ---
 
@@ -142,12 +172,13 @@ class: inverse, center, middle
 
 - Simple Data Structures and formats
   - JSON, XML, plain text (csv)
-- Curated Databases
-  - SQLite, Postgres, MySQL, Apache Drill
+- Databases
+  - Postgres, SQLite, MySQL, Apache Drill
   - **Never Excel**
 - Languages
   - `SQL`, `R` packages like [`dbplyr`](https://github.com/tidyverse/dbplyr)
-  - `bash`, again (cleaning data, building pipelines)
+  - `bash`
+  - `scala`, `python`, `java` (if you're brave)
 
 ---
 
@@ -160,8 +191,9 @@ class: inverse, center, middle
 
 # Program Management 
 
-- Github repos, issues, & projects
-- Planning, scoping, milestoning
+- Statements of Work, Project proposals
+- Github repos, issues, projects & milestones
+- Anything that helps you get organized
 
 ---
 
@@ -188,16 +220,23 @@ class: inverse, center, middle
 
 ---
 
-# Data Science
+# Data Science (R)
 
-- [EC 607 - Environmental Economics and Data Science](https://github.com/uo-ec607/lectures)
-- [Data Science at the Command Line](https://www.datascienceatthecommandline.com/2e/)
+- [Data Science Programming Methods](https://stat447.com)
+- [Environmental Economics and Data Science](https://github.com/uo-ec607/lectures)
 - [R for Data Science](https://r4ds.had.co.nz)
-- [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
-  - Honestly, I learned from SQL language manuals
+- [What They Forgot to Teach You About R](https://rstats.wtf/index.html)
 
 ---
 
+# Data Science (others)
+
+- [Data Science at the Command Line](https://www.datascienceatthecommandline.com/2e/)
+- [Python for Data Analysis, 3e](https://wesmckinney.com/book/)
+- [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
+  - Honestly, I learned from SQL language manuals
+
+--
 # Docker
 
 - [R Docker Tutorial](https://ropenscilabs.github.io/r-docker-tutorial/)
