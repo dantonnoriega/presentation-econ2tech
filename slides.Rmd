@@ -70,7 +70,7 @@ class: center, middle
 - Plan and deploy data pipelines
 --
 
-- Google stuff I don't know, constantly
+- Google stuff we don't know, constantly
 
 # Fun stats
 
@@ -204,6 +204,7 @@ class: center, bottom
 - Try to get an internship
   - Don't just aim for a top tech firm
   - Mid-level firms and start-ups also valuable
+- Learn [Shiny](https://shiny.rstudio.com/tutorial/) (wep app development)!
 
 ---
 class: inverse, center, middle
@@ -236,11 +237,17 @@ class: inverse, center, middle
 - [SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
   - Honestly, I learned from SQL language manuals
 
---
+---
+
 # Docker
 
 - [R Docker Tutorial](https://ropenscilabs.github.io/r-docker-tutorial/)
 - [Docker for Beginners](https://docker-curriculum.com)
+
+# Shiny
+
+- [Mastering Shiny](https://mastering-shiny.org)
+- [Learn Shiny (RStudio)](https://shiny.rstudio.com/tutorial/)
 
 ---
 background-image: url('IMG_0028.jpg')
